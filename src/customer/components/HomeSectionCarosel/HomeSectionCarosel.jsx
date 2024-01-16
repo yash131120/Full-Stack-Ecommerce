@@ -21,6 +21,7 @@ const HomeSectionCarosel = () => {
           responsive={responsive}
         />
         {/* <Button></Button>...........1:07:45 */}
+        <Button>click</Button>
       </div>
     </div>
   )
