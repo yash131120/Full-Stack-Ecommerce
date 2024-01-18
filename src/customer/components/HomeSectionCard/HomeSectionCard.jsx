@@ -9,7 +9,7 @@ const HomeSectionCard = () => {
 
       </div>
 
-      <div className='p-4'>
+      <div className='p-4' bLack>
         <h3 className='text-lg font-medium text-gray-900'>Nofiltere</h3>
         <p className='mt-2 text-sm text-gray-500'>Men Solid pure Cotton Straight Kurta</p>
       </div>
