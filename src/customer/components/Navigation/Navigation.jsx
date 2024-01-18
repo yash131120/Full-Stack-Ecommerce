@@ -50,6 +50,7 @@ const navigation = {
           ],
         },
         {
+
           id: 'brands',
           name: 'Brands',
           items: [
