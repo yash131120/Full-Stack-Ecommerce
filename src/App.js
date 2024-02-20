@@ -7,7 +7,10 @@ function App() {
     <div className="">
       <Navigation />
       <div>
-        <HomePage />
+        // <HomePage />
+        // <index.js/>
+        <HomesectionCard.jsx/>
+    
 
       </div>
     </div>
