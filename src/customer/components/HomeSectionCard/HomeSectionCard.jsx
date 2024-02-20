@@ -14,6 +14,11 @@ const HomeSectionCard = () => {
         <p className='mt-2 text-sm text-gray-500'>Men Solid pure Cotton Straight Kurta</p>
       </div>
 
+      <div>
+      <h3 className='text-lg font-medium text-gray-900'>hello this is your first view</h3>
+        <p className='mt-3 text-sm text-gray-400'>women solid cotton steaight kurta</p>
+      </div>
+
     </div>
   )
 }
