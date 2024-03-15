@@ -15,6 +15,7 @@ const product = {
     { id: 1, name: "Men", href: "#" },
     { id: 2, name: "Clothing", href: "#" },
   ],
+  //image for card
   images: [
     {
       src: "https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg",
