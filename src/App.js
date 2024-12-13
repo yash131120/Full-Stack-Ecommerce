@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="">
       <Routes>
+    // customerRoutrs link page
         <Route path="/*" element={<CustomerRouters />}></Route>
       </Routes>
     </div>
