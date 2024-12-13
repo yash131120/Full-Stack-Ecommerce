@@ -20,3 +20,30 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+// exports.index = asyncHandler(async (req, res, next) => {
+//   // Get details of books, book instances, authors and genre counts (in parallel)
+//   const [
+//     mens_kuurta,
+//     mens_shoes,
+//     mens_shirt,
+//     womens_saree,
+//     womens_dress,
+//   ] = await Promise.all([
+//     mens_kuurt.countDocuments({}).exec(),
+//     mens_shoes.countDocuments({}).exec(),
+//     mens_shirt.countDocuments({ status: "Available" }).exec(),
+//     womens_saree.countDocuments({}).exec(),
+//     womens_dress.countDocuments({}).exec(),
+//   ]);
+
+//   res.render("index", {
+//     title: "select the items",
+//     book_count: numBooks,
+//     book_instance_count: numBookInstances,
+//     book_instance_available_count: numAvailableBookInstances,
+//     author_count: numAuthors,
+//     genre_count: numGenres,
+//   });
+// });
